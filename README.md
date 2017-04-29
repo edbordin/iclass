@@ -20,10 +20,10 @@ Now go to `C:\MinGW\msys\1.0` and copy everything over to `C:\MinGW`.
 
 Open the `msys.bat` file to get a small shell environment. Clone the provided source code into the home folder, go into the `iclassified` directory, and run `make`.
 
-If everything runs well you should get `iclass.exe` and `iclassified.o`
+If everything runs well you should get `iclass.exe` and `iclassified.o`.
 
 At this point you should plug in your OMNIKEY reader and follow the instructions provided alongside [the drivers](http://www.proxmark.org/files/Various%20Hardware/OMNIKEY%205x21/OMNIKESY5x21_V1_2_0_14.exe) to get the reader setup. 
 
-If all goes well you should be able to execute `iclass.exe read` to read a card and `iclass.exe write` to write to a card.
+If all goes well you should be able to execute `iclass.exe read` to read a card and `iclass.exe write` to write to a card. If you get the error "The application failed to initialize properly (0xc0150002)" then you may need to install [Microsoft Visual C++ 2008 Redistributable Package (x86)](https://www.microsoft.com/en-au/download/details.aspx?id=29).
 
 ![writing](https://cloud.githubusercontent.com/assets/166333/15988852/a08fa5d0-302d-11e6-99c5-3b80d4a7d195.png)
